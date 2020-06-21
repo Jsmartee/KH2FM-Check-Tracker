@@ -1,0 +1,34 @@
+﻿<Window x:Class="KH2FM_Randomizer_Checklist.HowToUse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KH2FM_Randomizer_Checklist"
+        mc:Ignorable="d" Background="#FF202020" Foreground="White"
+        Title="How To Use" Height="350" Width="400">
+    <Grid>
+        <TextBlock Margin="10" TextWrapping="Wrap">
+            
+            This program tracks various items, data org fights, and world progression. <LineBreak/>
+            <LineBreak/>
+            
+            Left click checks an item, increments a counter, and progresses a world. <LineBreak/>
+            <LineBreak/>
+            
+            Right click unchecks an item, decrements a counter, and moves backwards in the progression 
+            list for a world. <LineBreak/>
+            <LineBreak/>
+            
+            The world progression tracker goes through a list of common checks for each world.
+            A number next to a check indicates which visit it is apart of. <LineBreak/>
+            <LineBreak/>
+            
+            Note: Disney Castle and Timeless River are in one section under the Disney Castle logo. <LineBreak/>
+            <LineBreak/>
+            
+            Update History: <LineBreak/>
+            Version 1.0 - 6/21/20 <LineBreak/>
+
+        </TextBlock>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<Application x:Class="KH2FM_Randomizer_Checklist.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:KH2FM_Randomizer_Checklist"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!-- Brushes -->
+        <SolidColorBrush x:Key="GreyBkg" Color="#FF202020"/>
+        <SolidColorBrush x:Key="GreenMax" Color="#FF13F217"/>
+        <SolidColorBrush x:Key="WhiteDef" Color="White"/>
+
+        <!-- Control Styles -->
+        <Style x:Key="CheckImage" TargetType="Image">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <EventSetter Event="MouseLeftButtonDown" Handler="CheckItem"/>
+            <EventSetter Event="MouseRightButtonDown" Handler="UncheckItem"/>
+        </Style>
+
+        <Style x:Key="CounterImage" TargetType="Image">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <EventSetter Event="MouseLeftButtonDown" Handler="CountUp"/>
+            <EventSetter Event="MouseRightButtonDown" Handler="CountDown"/>
+        </Style>
+
+        <Style x:Key="IntCounter" TargetType="TextBlock">
+            <Setter Property="Background" Value="{StaticResource GreyBkg}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Calibri"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Margin" Value="0,8,10,0"/>
+        </Style>
+
+        <Style x:Key="WorldImage" TargetType="Image">
+            <Setter Property="Height" Value="65"/>
+            <Setter Property="Width" Value="65"/>
+            <EventSetter Event="MouseLeftButtonDown" Handler="WorldForward"/>
+            <EventSetter Event="MouseRightButtonDown" Handler="WorldBackward"/>
+        </Style>
+
+        <Style x:Key="WorldText" TargetType="TextBlock">
+            <Setter Property="Background" Value="{StaticResource GreyBkg}"/>
+            <Setter Property="Foreground" Value="Gray"/>
+            <Setter Property="FontFamily" Value="Calibri"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+        </Style>
+        
+    </Application.Resources>
+</Application>

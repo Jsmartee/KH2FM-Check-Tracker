@@ -112,6 +112,8 @@ namespace KH2FM_Randomizer_Checklist
                 "1: Yen Sid",
                 "2: Sandlot",
                 "2: Oathkeeper",
+                "3: Underground",
+                "3: Sunset Terrace",
                 "3: Mickey",
                 "3: Mansion",
                 "3: Betwixt"
@@ -122,10 +124,10 @@ namespace KH2FM_Randomizer_Checklist
                 "Not visited",
                 "1: Merlin",
                 "1: Bailey",
-                "2: Computer RC",
-                "3: Corridor",
+                "2: Ansem's Study",
+                "3: Corridor Fight",
                 "3: Demyx",
-                "3: FF",
+                "3: FF Fights",
                 "3: 1K",
                 "Post: Chests",
                 "Post: Mushroom",
@@ -163,6 +165,7 @@ namespace KH2FM_Randomizer_Checklist
             {
                 "Not visited",
                 "1: Thresholder",
+                "1: Cogsworth",
                 "1: Beast",
                 "1: Dark Thorn",
                 "2: Rumbling Rose",
@@ -181,7 +184,10 @@ namespace KH2FM_Randomizer_Checklist
                 "1: Hydra",
                 "2: Hades Chamber",
                 "2: Hades",
-                "Post: Cups"
+                "Post: 1 Cup",
+                "Post: 2 Cups",
+                "Post: 3 Cups",
+                "Post: 4 Cups"
             };
 
             List<string> DC = new List<string>
@@ -214,9 +220,9 @@ namespace KH2FM_Randomizer_Checklist
             {
                 "Not visited",
                 "1: Bazaar",
-                "1: Cave",
-                "1: Abu",
-                "1: Falling",
+                "1: Enter Cave",
+                "1: Abu Escort",
+                "1: Falling Segment",
                 "1: Treasure Room",
                 "1: Twin Lords",
                 "2: Carpet",
@@ -247,7 +253,7 @@ namespace KH2FM_Randomizer_Checklist
             List<string> SP = new List<string>
             {
                 "Not visited",
-                "1: Cube",
+                "1: Cube Game",
                 "1: Comms Room",
                 "1: Hostile Program",
                 "2: Central Computer",
@@ -405,7 +411,7 @@ namespace KH2FM_Randomizer_Checklist
 
         private void Info_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.0");
+            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.2");
         }
     }
 }

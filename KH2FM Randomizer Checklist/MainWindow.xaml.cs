@@ -54,7 +54,7 @@ namespace KH2FM_Randomizer_Checklist
                 new Item("Reflect", "magicorb_0.png", countImg, "", 3),
                 new Item("Magnet", "magicorb_0.png", countImg, "", 3),
 
-                new Item("Valor", "formvalor_0.png", countImg, "", 7),
+                new Item("Valor Form", "formvalor_0.png", countImg, "", 7),
                 new Item("Wisdom Form", "formwisdom_0.png", countImg, "", 7),
                 new Item("Limit Form", "formlimit_0.png", countImg, "", 7),
                 new Item("Master Form", "formmaster_0.png", countImg, "", 7),

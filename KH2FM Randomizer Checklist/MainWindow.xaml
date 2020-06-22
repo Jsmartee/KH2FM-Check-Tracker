@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KH2FM_Randomizer_Checklist"
         mc:Ignorable="d" Background="#FF202020"
-        Title="KH2FM Checklist" Height="650" Width="570">
+        Title="KH2FM Checklist" Height="550" Width="450" Icon="crown_3.png">
 
     <DockPanel>
 
@@ -20,11 +20,11 @@
             </MenuItem>
         </Menu>
 
-        <Grid DockPanel.Dock="Bottom">
+        <Grid x:Name="Tracker" DockPanel.Dock="Bottom">
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="10"/>
-                <RowDefinition Height="200"/>
+                <RowDefinition Height="160"/>
                 <RowDefinition/>
                 <RowDefinition Height="10"/>
             </Grid.RowDefinitions>
@@ -40,18 +40,18 @@
             <Grid x:Name="ItemTracker" Grid.Row="1" Grid.Column="1">
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
                 </Grid.ColumnDefinitions>
 
             </Grid>
@@ -60,19 +60,19 @@
             <Grid x:Name="DataTracker" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40"/>
                 </Grid.ColumnDefinitions>
 
             </Grid>

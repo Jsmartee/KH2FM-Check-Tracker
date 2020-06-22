@@ -12,15 +12,15 @@
 
         <!-- Control Styles -->
         <Style x:Key="CheckImage" TargetType="Image">
-            <Setter Property="Height" Value="50"/>
-            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="40"/>
             <EventSetter Event="MouseLeftButtonDown" Handler="CheckItem"/>
             <EventSetter Event="MouseRightButtonDown" Handler="UncheckItem"/>
         </Style>
 
         <Style x:Key="CounterImage" TargetType="Image">
-            <Setter Property="Height" Value="50"/>
-            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="40"/>
             <EventSetter Event="MouseLeftButtonDown" Handler="CountUp"/>
             <EventSetter Event="MouseRightButtonDown" Handler="CountDown"/>
         </Style>
@@ -30,15 +30,15 @@
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontFamily" Value="Calibri"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontSize" Value="15"/>
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="Margin" Value="0,8,10,0"/>
         </Style>
 
         <Style x:Key="WorldImage" TargetType="Image">
-            <Setter Property="Height" Value="65"/>
-            <Setter Property="Width" Value="65"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="60"/>
             <EventSetter Event="MouseLeftButtonDown" Handler="WorldForward"/>
             <EventSetter Event="MouseRightButtonDown" Handler="WorldBackward"/>
         </Style>
@@ -47,9 +47,12 @@
             <Setter Property="Background" Value="{StaticResource GreyBkg}"/>
             <Setter Property="Foreground" Value="Gray"/>
             <Setter Property="FontFamily" Value="Calibri"/>
-            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
         </Style>
         
     </Application.Resources>

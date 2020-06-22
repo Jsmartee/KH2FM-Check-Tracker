@@ -24,8 +24,8 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="10"/>
-                <RowDefinition Height="160"/>
                 <RowDefinition/>
+                <RowDefinition Height="160"/>
                 <RowDefinition Height="10"/>
             </Grid.RowDefinitions>
 
@@ -37,7 +37,7 @@
             </Grid.ColumnDefinitions>
 
             <!-- Item Tracker -->
-            <Grid x:Name="ItemTracker" Grid.Row="1" Grid.Column="1">
+            <Grid x:Name="ItemTracker" Grid.Row="2" Grid.Column="1">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>
@@ -57,7 +57,7 @@
             </Grid>
 
             <!-- Data Org Tracker -->
-            <Grid x:Name="DataTracker" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">
+            <Grid x:Name="DataTracker" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>
@@ -78,7 +78,7 @@
             </Grid>
 
             <!-- World Visits Tracker -->
-            <Grid x:Name="WorldTracker" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid x:Name="WorldTracker" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,0,10">
 
                 <Grid.RowDefinitions>
                     <RowDefinition/>

@@ -51,8 +51,8 @@ namespace KH2FM_Randomizer_Checklist
                 new Item("Blizzard", "magicblizzard_0.png", countImg, "", 3),
                 new Item("Thunder", "magicthunder_0.png", countImg, "", 3),
                 new Item("Cure", "magiccure_0.png", countImg, "", 3),
-                new Item("Reflect", "magicorb_0.png", countImg, "", 3),
-                new Item("Magnet", "magicorb_0.png", countImg, "", 3),
+                new Item("Reflect", "magicreflect_0.png", countImg, "", 3),
+                new Item("Magnet", "magicmagnet_0.png", countImg, "", 3),
 
                 new Item("Valor Form", "formvalor_0.png", countImg, "", 7),
                 new Item("Wisdom Form", "formwisdom_0.png", countImg, "", 7),
@@ -108,7 +108,6 @@ namespace KH2FM_Randomizer_Checklist
             List<string> TT = new List<string>
             {
                 "Not visited",
-                "1: Station",
                 "1: Yen Sid",
                 "2: Sandlot",
                 "2: Oathkeeper",
@@ -411,7 +410,7 @@ namespace KH2FM_Randomizer_Checklist
 
         private void Info_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.2");
+            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.3");
         }
     }
 }

@@ -130,16 +130,6 @@
     <Resource Include="Resources\Images\formwisdom_1.png" />
     <Resource Include="Resources\Images\Halloween Town.png" />
     <Resource Include="Resources\Images\Hollow Bastion.png" />
-    <Resource Include="Resources\Images\magicblizzard_0.png" />
-    <Resource Include="Resources\Images\magicblizzard_1.png" />
-    <Resource Include="Resources\Images\magiccure_0.png" />
-    <Resource Include="Resources\Images\magiccure_1.png" />
-    <Resource Include="Resources\Images\magicfire_0.png" />
-    <Resource Include="Resources\Images\magicfire_1.png" />
-    <Resource Include="Resources\Images\magicorb_0.png" />
-    <Resource Include="Resources\Images\magicorb_1.png" />
-    <Resource Include="Resources\Images\magicthunder_0.png" />
-    <Resource Include="Resources\Images\magicthunder_1.png" />
     <Resource Include="Resources\Images\mickey_0.png" />
     <Resource Include="Resources\Images\mickey_1.png" />
     <Resource Include="Resources\Images\Olympus Coliseum.png" />
@@ -202,6 +192,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="crown_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\magicblizzard_0.png" />
+    <Resource Include="Resources\Images\magicblizzard_1.png" />
+    <Resource Include="Resources\Images\magiccure_0.png" />
+    <Resource Include="Resources\Images\magiccure_1.png" />
+    <Resource Include="Resources\Images\magicfire_0.png" />
+    <Resource Include="Resources\Images\magicfire_1.png" />
+    <Resource Include="Resources\Images\magicmagnet_0.png" />
+    <Resource Include="Resources\Images\magicmagnet_1.png" />
+    <Resource Include="Resources\Images\magicreflect_0.png" />
+    <Resource Include="Resources\Images\magicreflect_1.png" />
+    <Resource Include="Resources\Images\magicthunder_0.png" />
+    <Resource Include="Resources\Images\magicthunder_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

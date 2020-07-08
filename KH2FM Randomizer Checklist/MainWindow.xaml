@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KH2FM_Randomizer_Checklist"
         mc:Ignorable="d" Background="#FF202020"
-        Title="KH2FM Checklist" Height="550" Width="450" Icon="crown_3.png">
+        Title="KH2FM World Tracker" Height="550" Width="450" Icon="crown_3.png" ResizeMode="CanMinimize">
 
     <DockPanel>
 

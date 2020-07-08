@@ -58,7 +58,7 @@ namespace KH2FM_Randomizer_Checklist
 
             if (num == mainWin.items.ElementAt(item).Max)
             {
-                mainWin.items.ElementAt(item).ItemText.Foreground = new SolidColorBrush(Color.FromRgb(19,242,23));
+                mainWin.items.ElementAt(item).ItemText.Foreground = new SolidColorBrush(Color.FromRgb(0,204,0));
             }
 
             mainWin.items.ElementAt(item).ItemCurrentCount = num;
@@ -155,7 +155,7 @@ namespace KH2FM_Randomizer_Checklist
 
             if (num == mainWin.worlds.ElementAt(world).WorldMax - 1)
             {
-                mainWin.worlds.ElementAt(world).WorldText.Foreground = new SolidColorBrush(Color.FromRgb(19, 242, 23));
+                mainWin.worlds.ElementAt(world).WorldText.Foreground = new SolidColorBrush(Color.FromRgb(0, 204, 0));
             }
 
             mainWin.worlds.ElementAt(world).WorldCurrentCount = num;

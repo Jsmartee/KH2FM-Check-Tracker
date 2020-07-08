@@ -410,7 +410,7 @@ namespace KH2FM_Randomizer_Checklist
 
         private void Info_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.3");
+            MessageBox.Show("Author: Jsmartee" + "\n" + "Images from khwiki.com and khinsider.com", "KH2FM Checklist v1.3.1");
         }
     }
 }

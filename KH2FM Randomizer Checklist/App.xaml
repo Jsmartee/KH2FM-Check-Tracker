@@ -7,8 +7,6 @@
 
         <!-- Brushes -->
         <SolidColorBrush x:Key="GreyBkg" Color="#FF202020"/>
-        <SolidColorBrush x:Key="GreenMax" Color="#FF13F217"/>
-        <SolidColorBrush x:Key="WhiteDef" Color="White"/>
 
         <!-- Control Styles -->
         <Style x:Key="CheckImage" TargetType="Image">

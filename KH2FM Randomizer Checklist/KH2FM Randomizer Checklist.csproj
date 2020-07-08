@@ -208,8 +208,8 @@
     <Resource Include="Resources\Images\magicthunder_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Images\tracker1.png" />
-    <Resource Include="Resources\Images\tracker2.png" />
+    <Resource Include="Resources\Images\trackerimage1.png" />
+    <Resource Include="Resources\Images\trackerimage2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -200,8 +200,6 @@
     <Resource Include="Resources\Images\magiccure_1.png" />
     <Resource Include="Resources\Images\magicfire_0.png" />
     <Resource Include="Resources\Images\magicfire_1.png" />
-    <Resource Include="Resources\Images\magicmagnet_0.png" />
-    <Resource Include="Resources\Images\magicmagnet_1.png" />
     <Resource Include="Resources\Images\magicreflect_0.png" />
     <Resource Include="Resources\Images\magicreflect_1.png" />
     <Resource Include="Resources\Images\magicthunder_0.png" />
@@ -210,6 +208,10 @@
   <ItemGroup>
     <Resource Include="Resources\Images\trackerimage1.png" />
     <Resource Include="Resources\Images\trackerimage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\magicmagnet_0.png" />
+    <Resource Include="Resources\Images\magicmagnet_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
